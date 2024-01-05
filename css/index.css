@@ -172,9 +172,9 @@
   margin: auto;
 }
 .radio-skin,
-.radio-skin--article,
-.radio-skin--app,
-.radio-skin--event {
+.radio-skin--大学毕业后,
+.radio-skin--觉悟,
+.radio-skin--大事件 {
   height: 100%;
   width: 2px;
   border-radius: 1px;
@@ -182,9 +182,9 @@
   transition: all 0.4s ease;
 }
 .radio-skin::after,
-.radio-skin--article::after,
-.radio-skin--app::after,
-.radio-skin--event::after {
+.radio-skin--大学毕业后::after,
+.radio-skin--觉悟::after,
+.radio-skin--大事件::after {
   transition: all 0.4s ease;
   display: block;
   height: 20px;
@@ -199,22 +199,22 @@
   top: 22px;
   box-shadow: 1px 0 5px rgba(0,0,0,0.2);
 }
-.radio-skin--article::after {
+.radio-skin--大学毕业后::after {
   border-color: #ee936c;
 }
-#radio-article:checked+.radio-skin--article {
+#radio-大学毕业后:checked+.radio-skin--大学毕业后 {
   background-color: #ee936c;
 }
-#radio-article:checked+.radio-skin--article::after {
+#radio-大学毕业后:checked+.radio-skin--大学毕业后::after {
   background-color: #ee936c;
   top: -2px;
 }
-.timeline-item-article .line-anchor::after,
-.timeline-item-article--hidden .line-anchor::after {
+.timeline-item-大学毕业后 .line-anchor::after,
+.timeline-item-大学毕业后--hidden .line-anchor::after {
   background-color: #ee936c;
 }
-.timeline-item-article .line-date-tag,
-.timeline-item-article--hidden .line-date-tag {
+.timeline-item-大学毕业后 .line-date-tag,
+.timeline-item-大学毕业后--hidden .line-date-tag {
   background-color: #ee936c;
 }
 /*
@@ -222,22 +222,22 @@
     font-weight: bold;
   }
   */
-.radio-skin--app::after {
+.radio-skin--觉悟::after {
   border-color: #60a465;
 }
-#radio-app:checked+.radio-skin--app {
+#radio-觉悟:checked+.radio-skin--觉悟 {
   background-color: #60a465;
 }
-#radio-app:checked+.radio-skin--app::after {
+#radio-觉悟:checked+.radio-skin--觉悟::after {
   background-color: #60a465;
   top: -2px;
 }
-.timeline-item-app .line-anchor::after,
-.timeline-item-app--hidden .line-anchor::after {
+.timeline-item-觉悟 .line-anchor::after,
+.timeline-item-觉悟--hidden .line-anchor::after {
   background-color: #60a465;
 }
-.timeline-item-app .line-date-tag,
-.timeline-item-app--hidden .line-date-tag {
+.timeline-item-觉悟 .line-date-tag,
+.timeline-item-觉悟--hidden .line-date-tag {
   background-color: #60a465;
 }
 /*
@@ -245,22 +245,22 @@
     font-weight: bold;
   }
   */
-.radio-skin--event::after {
+.radio-skin--大事件::after {
   border-color: #568dc4;
 }
-#radio-event:checked+.radio-skin--event {
+#radio-大事件:checked+.radio-skin--大事件 {
   background-color: #568dc4;
 }
-#radio-event:checked+.radio-skin--event::after {
+#radio-大事件:checked+.radio-skin--大事件::after {
   background-color: #568dc4;
   top: -2px;
 }
-.timeline-item-event .line-anchor::after,
-.timeline-item-event--hidden .line-anchor::after {
+.timeline-item-大事件 .line-anchor::after,
+.timeline-item-大事件--hidden .line-anchor::after {
   background-color: #568dc4;
 }
-.timeline-item-event .line-date-tag,
-.timeline-item-event--hidden .line-date-tag {
+.timeline-item-大事件 .line-date-tag,
+.timeline-item-大事件--hidden .line-date-tag {
   background-color: #568dc4;
 }
 /*
