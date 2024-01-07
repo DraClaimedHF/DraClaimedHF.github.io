@@ -173,8 +173,8 @@
 }
 .radio-skin,
 .radio-skin--大学毕业后,
-.radio-skin--觉悟,
-.radio-skin--大事件 {
+.radio-skin--建站,
+.radio-skin--时政事件 {
   height: 100%;
   width: 2px;
   border-radius: 1px;
@@ -183,8 +183,8 @@
 }
 .radio-skin::after,
 .radio-skin--大学毕业后::after,
-.radio-skin--觉悟::after,
-.radio-skin--大事件::after {
+.radio-skin--建站::after,
+.radio-skin--时政事件::after {
   transition: all 0.4s ease;
   display: block;
   height: 20px;
@@ -222,22 +222,22 @@
     font-weight: bold;
   }
   */
-.radio-skin--觉悟::after {
+.radio-skin--建站::after {
   border-color: #60a465;
 }
-#radio-觉悟:checked+.radio-skin--觉悟 {
+#radio-建站:checked+.radio-skin--建站 {
   background-color: #60a465;
 }
-#radio-觉悟:checked+.radio-skin--觉悟::after {
+#radio-建站:checked+.radio-skin--建站::after {
   background-color: #60a465;
   top: -2px;
 }
-.timeline-item-觉悟 .line-anchor::after,
-.timeline-item-觉悟--hidden .line-anchor::after {
+.timeline-item-建站 .line-anchor::after,
+.timeline-item-建站--hidden .line-anchor::after {
   background-color: #60a465;
 }
-.timeline-item-觉悟 .line-date-tag,
-.timeline-item-觉悟--hidden .line-date-tag {
+.timeline-item-建站 .line-date-tag,
+.timeline-item-建站--hidden .line-date-tag {
   background-color: #60a465;
 }
 /*
@@ -245,22 +245,22 @@
     font-weight: bold;
   }
   */
-.radio-skin--大事件::after {
+.radio-skin--时政事件::after {
   border-color: #568dc4;
 }
-#radio-大事件:checked+.radio-skin--大事件 {
+#radio-时政事件:checked+.radio-skin--时政事件 {
   background-color: #568dc4;
 }
-#radio-大事件:checked+.radio-skin--大事件::after {
+#radio-时政事件:checked+.radio-skin--时政事件::after {
   background-color: #568dc4;
   top: -2px;
 }
-.timeline-item-大事件 .line-anchor::after,
-.timeline-item-大事件--hidden .line-anchor::after {
+.timeline-item-时政事件 .line-anchor::after,
+.timeline-item-时政事件--hidden .line-anchor::after {
   background-color: #568dc4;
 }
-.timeline-item-大事件 .line-date-tag,
-.timeline-item-大事件--hidden .line-date-tag {
+.timeline-item-时政事件 .line-date-tag,
+.timeline-item-时政事件--hidden .line-date-tag {
   background-color: #568dc4;
 }
 /*
