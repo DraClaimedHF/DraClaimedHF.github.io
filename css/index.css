@@ -173,7 +173,7 @@
 }
 .radio-skin,
 .radio-skin--大学毕业后,
-.radio-skin--建站,
+.radio-skin--建立blog,
 .radio-skin--时政事件 {
   height: 100%;
   width: 2px;
@@ -183,7 +183,7 @@
 }
 .radio-skin::after,
 .radio-skin--大学毕业后::after,
-.radio-skin--建站::after,
+.radio-skin--建立blog::after,
 .radio-skin--时政事件::after {
   transition: all 0.4s ease;
   display: block;
@@ -222,22 +222,22 @@
     font-weight: bold;
   }
   */
-.radio-skin--建站::after {
+.radio-skin--建立blog::after {
   border-color: #60a465;
 }
-#radio-建站:checked+.radio-skin--建站 {
+#radio-建立blog:checked+.radio-skin--建立blog {
   background-color: #60a465;
 }
-#radio-建站:checked+.radio-skin--建站::after {
+#radio-建立blog:checked+.radio-skin--建立blog::after {
   background-color: #60a465;
   top: -2px;
 }
-.timeline-item-建站 .line-anchor::after,
-.timeline-item-建站--hidden .line-anchor::after {
+.timeline-item-建立blog .line-anchor::after,
+.timeline-item-建立blog--hidden .line-anchor::after {
   background-color: #60a465;
 }
-.timeline-item-建站 .line-date-tag,
-.timeline-item-建站--hidden .line-date-tag {
+.timeline-item-建立blog .line-date-tag,
+.timeline-item-建立blog--hidden .line-date-tag {
   background-color: #60a465;
 }
 /*
